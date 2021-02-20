@@ -7,12 +7,7 @@ def key_for_min_value(name_hash)
     if 
       current_min_value == nil || value < current_min_value 
       current_min_value = value
-      current_key_value = {key}
-    else
-      
-      current_min_value = "#{value}"
-      current_key_value = "#{key}"
-      
+      current_key_value = key
     end
   end
 current_key_value
